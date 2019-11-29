@@ -1,0 +1,21 @@
+html, body {
+    background-color: gray;
+}
+
+.wrapper {
+    display: grid;
+    width: 70%;
+    margin:0 auto;
+    background-color: azure;
+    grid-auto-flow: row;
+    justify-content: center;
+    
+}
+
+.wrapper > p {
+    text-align: center;
+}
+
+.wrapper > div {
+    text-align: center;
+}
